@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="calculator">
+  <meta name="keywords" content="calculator">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+  <title>Simple Calculator</title>
+
+  <!-- external CSS link -->
+ 
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <h1>Simple Calculator</h1>
+  <div class = "container">
+  <div class="display">
+    <div class="previous-Op"></div>
+    <div class="current-Op"></div>
+  </div>
+  <table>
+    
+    <tr class = 'firstrow'>
+      <td colspan = '2'> <button class='clear ops cleardiv' onclick="document.querySelector('.display').value = ''" />C</td>
+
+      <td> <button class = 'delete cleardiv'  />DEL</td>
+
+      <td><button class ="op ops"/>%</button></td>
+      </tr>
+      <tr>
+      <td><button class ="num num-pad" />1</button></td>
+
+      <td><button class ="num num-pad"/>2</button></td>
+
+      <td><button class =" num num-pad"/>3</button></td>
+
+      
+      <td><button class ="op ops" />x</button></td>
+    </tr>
+    <tr>
+      
+      <td><button class ="num num-pad"/>4</button></td>
+
+      <td><button class ="num num-pad"/>5</button></td>
+
+      <td><button class ="num num-pad"/>6</button></td>
+
+      <td><button class ="op ops">- </button></td>
+    </tr>
+    <tr>
+      
+      <td><button class ="num num-pad" />7</button></td>
+
+      <td><button class ="num num-pad" />8</button></td>
+
+      <td><button class ="num num-pad" />9</button></td>
+      <td><button class ="op ops"/> +</button></td>
+    </tr>
+    <tr>
+      
+     <td><button class ="num num-pad"/>.</button></td>
+
+    <td><button class ="num num-pad"/>0</button></td>
+     
+
+    <td colspan="2"><button class = "op equals" />= </button></td>
+    </tr>
+  </table>
+</div>
+
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+</html>
